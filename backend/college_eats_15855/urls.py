@@ -32,9 +32,9 @@ urlpatterns = [
     path("rest-auth/registration/", include("rest_auth.registration.urls")),
 ]
 
-admin.site.site_header = "College Eats"
-admin.site.site_title = "College Eats Admin Portal"
-admin.site.index_title = "College Eats Admin"
+admin.site.site_header = "HIBO"
+admin.site.site_title = "HIBO Admin Portal"
+admin.site.index_title = "HIBO Admin"
 
 # swagger
 schema_view = get_schema_view(
